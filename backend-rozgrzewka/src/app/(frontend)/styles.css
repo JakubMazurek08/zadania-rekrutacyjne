@@ -1,0 +1,69 @@
+:root {
+  --font-mono: 'Roboto Mono', monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+  line-height: 32px;
+  background: rgb(0, 0, 0);
+  -webkit-font-smoothing: antialiased;
+}
+
+button{
+  font-size: 18px;
+  padding:10px;
+  border-radius: 15px;
+  background-color:white;
+  border:none;
+  transition: all 0.05s ease-in-out;
+}
+
+button:hover{
+  scale:1.1;
+}
+
+button:active{
+  scale:0.9;
+}
+
+body {
+  font-family: system-ui;
+  font-size: 18px;
+  line-height: 32px;
+  padding: 20px;
+  margin: 0;
+  color: rgb(1000, 1000, 1000);
+}
+
+.products-list{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+}
+
+.product{
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: min-content;
+}
+
+h1{
+  font-weight: bold;
+  font-size:50px;
+}
+
+.productLabel{
+  display:flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+}
